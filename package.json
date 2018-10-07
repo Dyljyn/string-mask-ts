@@ -1,0 +1,38 @@
+{
+  "name": "string-mask-ts",
+  "version": "1.0.0-alpha.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dyljyn/string-mask-ts.git"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "serve": "tsc -w",
+    "test": "karma start"
+  },
+  "author": {
+    "name": "Dyljyn",
+    "url": "https://github.com/Dyljyn",
+    "email": "vanbommeldylan@gmail"
+  },
+  "homepage": "https://github.com/Dyljyn/string-mask-ts#readme",
+  "bugs": {
+    "url": "https://github.com/Dyljyn/string-mask-ts/issues"
+  },
+  "license": "MIT",
+  "main": "dist/string-mask.js",
+  "types": "dist/string-mask.d.ts",
+  "devDependencies": {
+    "@types/jasmine": "2.8.8",
+    "@types/node": "10.11.3",
+    "jasmine-core": "3.2.1",
+    "karma": "3.0.0",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-jasmine": "1.1.2",
+    "karma-typescript": "3.0.13",
+    "prettier": "1.14.3",
+    "typescript": "3.1.1"
+  }
+}
