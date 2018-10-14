@@ -22,8 +22,8 @@
     "url": "https://github.com/Dyljyn/string-mask-ts/issues"
   },
   "license": "MIT",
-  "main": "dist/string-mask.js",
-  "types": "dist/string-mask.d.ts",
+  "main": "dist/public_api.js",
+  "types": "dist/public_api.d.ts",
   "devDependencies": {
     "@types/jasmine": "2.8.8",
     "@types/node": "10.11.3",
